@@ -137,12 +137,11 @@ Outside the kernel, I'm deeply invested in **AI-augmented engineering** — buil
 
 ## 🔗 Find Me Online
 
-<!-- Replace # with actual URLs -->
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/小红书-E1003C?style=for-the-badge&logo=xiaohongshu&logoColor=white" height="28" /></a>&nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/抖音-000000?style=for-the-badge&logo=tiktok&logoColor=white" height="28" /></a>&nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="28" /></a>&nbsp;
-  <a href="#"><img src="https://img.shields.io/badge/微信-07C160?style=for-the-badge&logo=wechat&logoColor=white" height="28" /></a>
+  <a href="https://github.com/GeoffBao"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://x.com/Easonbaox"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://www.xiaohongshu.com/user/profile/5936734e5e87e77e581d286f"><img src="https://img.shields.io/badge/小红书-E1003C?style=for-the-badge&logo=xiaohongshu&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://www.youtube.com/@geoffbao9807"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="28" /></a>
 </p>
 
 <p align="center">
