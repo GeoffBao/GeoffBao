@@ -1,0 +1,33 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate snake (light)
+        uses: Platane/snk@master
+        with:
+          github_user_name: GeoffBao
+          svg_out_path: output/github-contribution-grid-snake.svg
+
+      - name: Generate snake (dark)
+        uses: Platane/snk@master
+        with:
+          github_user_name: GeoffBao
+          svg_out_path: output/github-contribution-grid-snake-dark.svg
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: output
