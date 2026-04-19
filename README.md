@@ -19,9 +19,11 @@
 
 I'm a **Camera Driver Software Engineer** based in **Shanghai, China** 🇨🇳.
 
-My work dives deep into the **Android Camera HAL3/4 pipeline** — kernel drivers, ISP tuning, multi-spectral imaging, and the invisible low-level plumbing behind every photo you take. I live at the intersection of hardware and software, where microseconds matter and stability is non-negotiable.
+I work across the full Android camera stack — from **kernel-space drivers** (V4L2, MIPI CSI/DSI, I2C/SPI sensor bring-up) to **userspace HAL3** (CameraProvider, CameraDeviceSession, Request/Result metadata) and **framework integration** (Camera2 API, CameraX). My daily reality is bridging raw silicon behavior with the polished experience users expect: configuring ISP pipelines, tuning 3A algorithms (AE/AWB/AF), debugging frame drops through Perfetto traces, and shaving milliseconds off cold-start latency.
 
-Beyond the driver stack, I have a sustained obsession with **AI-augmented engineering**: LLM-powered workflows, local-first automation, knowledge management systems, and cost-efficient tooling design. My philosophy:
+I've shipped camera features across multiple SoC platforms (Qualcomm, MediaTek, etc.) and dealt with the full lifecycle — from sensor driver bring-up and register-level debugging to HAL conformance testing and CTS/VTS pass. I care about things most developers never see: stream configuration combinations, metadata queue depth, reprocessing pipeline latency, and the difference between a 30ms and 32ms shutter-to-callback path.
+
+Outside the kernel, I'm deeply invested in **AI-augmented engineering** — building LLM-powered dev workflows, local-first automation pipelines, and cost-efficient knowledge management systems. I believe the best toolchains are the ones nobody notices for 90 days straight.
 
 > *"完美系统不存在，只有稳定三个月不动的系统。"*
 > *There is no perfect system — only one that runs quietly for 90 days without anyone touching it.*
@@ -34,22 +36,48 @@ Beyond the driver stack, I have a sustained obsession with **AI-augmented engine
 <tr>
 <td valign="top" width="50%">
 
-**📷 Camera Stack**
-- Android Camera HAL3 / HAL4
-- ISP Pipeline Tuning & 3A Algorithms
-- Kernel Driver Development (V4L2 / MIPI)
-- Multi-Spectral Imaging Systems
-- Perfetto Trace Analysis & Cold-Start Optimization
+**📷 Camera Driver & BSP**
+- Sensor Driver Bring-up (I2C/SPI/CCI)
+- V4L2 Subdev & Media Controller Framework
+- MIPI CSI-2 / D-PHY / C-PHY Interface
+- Camera HAL3 Implementation & Tuning
+- Stream Configuration & Request Pipeline
+- Metadata Tag System & Vendor Tags
 
 </td>
 <td valign="top" width="50%">
 
-**🤖 AI & Automation**
+**🖼️ ISP & Image Quality**
+- ISP Pipeline Topology & Module Tuning
+- 3A Algorithm Integration (AE / AWB / AF)
+- Color Correction Matrix & Gamma Curves
+- Noise Reduction & Edge Enhancement
+- Multi-Frame Fusion & HDR Processing
+- Image Quality Assessment & Benchmarking
+
+</td>
+</tr>
+<tr>
+<td valign="top" width="50%">
+
+**⚡ Performance & Debugging**
+- Cold-Start & Shot-to-Shot Latency Optimization
+- Perfetto / Systrace / ftrace Analysis
+- Frame Drop Root-Cause & Buffer Management
+- Power / Thermal / Memory Budget Tuning
+- CTS / VTS / ITS Conformance Testing
+- Crash Dump & Kernel Panic Analysis
+
+</td>
+<td valign="top" width="50%">
+
+**🤖 AI & Developer Tooling**
 - LLM-Powered Dev Workflows (Cursor / Claude Code)
 - Local-First Automation & Agent Systems
 - Knowledge Management (Obsidian / Tana)
 - Workflow Design & Cost Optimization
 - CLI Tooling & Custom Scripts
+- Prompt Engineering & RAG Pipelines
 
 </td>
 </tr>
