@@ -123,6 +123,32 @@ Outside the kernel, I'm deeply invested in **AI-augmented engineering** — buil
 
 ---
 
+## 🧪 Featured Projects
+
+### LLM WIPA — Personal Knowledge Base
+
+> A local web interface for **Obsidian vaults** — Wikipedia-inspired, no cloud, no sync, zero build step.
+
+<p align="center">
+  <a href="https://github.com/GeoffBao/llm-wipa-personal">
+    <img src="https://raw.githubusercontent.com/GeoffBao/llm-wipa-personal/main/docs/screenshots/home.png" width="800" />
+  </a>
+</p>
+
+WIPA turns your Obsidian vault into a beautiful, locally-served knowledge base with full-text search (MiniSearch + CJK tokenizer), D3 force-directed knowledge graph, wikilink navigation, Canvas diagram rendering, and Excalidraw viewer. Designed for vaults that grow into hundreds of files with mixed Chinese/English content.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GeoffBao/llm-wipa-personal/main/docs/screenshots/graph.png" width="800" />
+  <br/><i>Knowledge Graph — D3 force-directed wikilink map of all 448 notes</i>
+</p>
+
+**Stack:** Express · D3.js · MiniSearch · Mermaid · Chokidar · Vanilla JS
+**Key features:** Wikipedia-style articles with TOC & infobox · live search with autocomplete · interactive graph of all wikilink connections · `.canvas` and `.excalidraw` rendering · Raycast integration for instant access
+
+[![Repo](https://img.shields.io/badge/📦_Repo-llm--wipa--personal-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GeoffBao/llm-wipa-personal)
+
+---
+
 ## 🐍 Contribution Snake
 
 <p align="center">
